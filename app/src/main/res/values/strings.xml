@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="tWelcome">Welcome</string>
+    <string name="tInstru">Instructions: select rock, paper or scissors to play.</string>
+    <string name="tStat1">Your all time statistics</string>
+    <string name="tStat2">Win: %d Draw: %d Lose: %d</string>
+    <string name="tVS">V.S.</string>
+    <string name="tie">Draw</string>
+    <string name="win">You win!</string>
+    <string name="lose">You lose!</string>
+    <string name="tComputer">Computer</string>
+    <string name="tYou">You</string>
+
+</resources>

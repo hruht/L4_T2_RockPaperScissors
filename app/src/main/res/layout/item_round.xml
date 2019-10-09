@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/tvItemResult"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:id="@+id/tvItemTime"
+            android:layout_marginTop="10dp"
+            android:layout_width="79dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:textStyle="italic"
+            android:textAlignment="center"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/tvItemFiller"
+            android:text=" "
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"/>
+
+        <ImageView
+            android:id="@+id/ivItemComChoice"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="30"
+            android:layout_gravity="end"
+            android:background="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:id="@+id/tvItemVS"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="20"
+            android:paddingTop="30dp"/>
+
+        <ImageView
+            android:id="@+id/ivItemYourChoice"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="30"
+            android:layout_gravity="start"
+
+            android:background="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:id="@+id/tvItemFiller2"
+            android:text=" "
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:id="@+id/tvItemFiller3"
+            android:text=" "
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"/>
+        <TextView
+            android:id="@+id/tvItemComputer"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/tComputer"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvItemFiller4"
+            android:text=" "
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"/>
+
+        <TextView
+            android:id="@+id/tvItemYou"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="@string/tYou"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvItemFiller5"
+            android:text=" "
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"/>
+
+
+    </TableRow>
+
+
+</TableLayout>
+
