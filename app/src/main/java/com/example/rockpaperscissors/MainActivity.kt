@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.ImageView
+import android.os.Handler
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -165,9 +166,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateView(){
 
-        // Update stats text
-        updateStats()
-
         // Update image views
         if (compChoice == "rock"){
             ivComChoice.setImageDrawable(getDrawable(R.drawable.rock))
@@ -195,6 +193,10 @@ class MainActivity : AppCompatActivity() {
         } else {
             tvStatus.text = "Hmm..."
         }
+
+        Handler().postDelayed({
+            updateStats()
+        }, 100)
 
     }
 
